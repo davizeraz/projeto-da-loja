@@ -1,0 +1,42 @@
+*,html,body{
+    box-sizing: border-box  ;
+}
+
+
+.page-title{
+    color: #096123;
+}
+
+.product-list{
+    display:flex;  
+    flex-wrap: wrap; 
+}
+.product-item{
+    width: 25%;
+    padding: 12px;
+}
+.product-image img{
+width: 100%;
+}
+
+.product-add-to-cart{
+    margin-top: 20px;
+}
+
+.btn-add-to-cart{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.btn-add-to-cart:hover{
+background-color: darkolivegreen;
+}
+
+.inactive{
+    opacity: 0.5;
+}
